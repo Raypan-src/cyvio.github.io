@@ -1,44 +1,89 @@
 body {
-    background-color: #111111;
+  background-color: #111111;
+  overflow-x: hidden;
 }
+
+.ellipse-1,
+.ellipse-2,
+.ellipse-3 {
+  position: fixed;
+  border-radius: 50%;
+  z-index: -1;
+  pointer-events: none;
+
+  background: rgba(142, 203, 131, 0.083);
+  filter: blur(50px);
+}
+
+.ellipse-1 {
+  width: 185px;
+  height: 178px;
+  top: 50px;
+  left: 5%;
+}
+
+.ellipse-2 {
+  width: 141px;
+  height: 141px;
+  top: 350px;
+  left: 20%;
+}
+
+.ellipse-3 {
+  width: 141px;
+  height: 141px;
+  top: 400px;
+  right: 15%;
+}
+
 
 /* Navigation bar */
-.Navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+nav,
+.navigation {
+  display: flex;
+  background-color: #111111;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  padding-top: 20px;
+  height: 70px;
 }
 
-#navigation_list {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    font-family: "JetBrain Mono", monospace;
-    padding-right: 50px;
+.developer_user {
+  font-family: "JetBrains Mono", monospace;
+  color: #0a6a05;
+  padding-left: 50px;
+  font-size: 25px;
+  text-decoration: none;
 }
 
-#navigation_list a {
-    text-decoration: none;
-    color: grey;
+.navigation_list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-family: "JetBrain Mono", monospace;
+  padding-right: 50px;
+  margin-left: auto;
 }
 
-#navigation_list a:hover {
-    color: darkgrey;
+.navigation_list a {
+  text-decoration: none;
+  color: grey;
 }
 
-#Developer_user {
-    font-family: "JetBrains Mono", monospace;
-    color: #0a6a05;
-    padding-left: 50px;
+.navigation_list a:hover {
+  color: darkgrey;
 }
 
-#Navigation_line {
-    margin-top: 0;
-    border: 1px solid rgba(30, 30, 30, 0.941);
-    width: 1500px;
-}
 
 /* Reviews */
+
+#reviews {
+    margin-top: 150px;
+}
+
 #reviews_heading {
     font-family: "JetBrain Mono", monospace;
     font-size: 35px;
