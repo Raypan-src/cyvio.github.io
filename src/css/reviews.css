@@ -49,6 +49,7 @@ nav,
   width: 100%;
   padding-top: 20px;
   height: 70px;
+  z-index: 1000;
 }
 
 .developer_user {

@@ -151,26 +151,24 @@ nav,
 
 /* My projects */
 
-#my_projects {
-  margin-top: 100px;
-  padding-left: 50px;
-}
-
 .project_heading {
   font-family: "JetBrain Mono", monospace;
   font-size: 35px;
   color: #00ff99;
+  margin-top: 100px;
+  padding-left: 50px;
 }
 
 .project_description {
   margin-top: 35px;
   font-family: "JetBrain Mono", monospace;
   color: #e0e0e0;
+  padding-left: 50px;
 }
 
 .project_cards {
   display: flex;
-  gap: 50px;
+  gap: 20px;
   font-family: "JetBrains Mono", monospace;
   font-size: 13px;
 }
@@ -236,6 +234,39 @@ nav,
 }
 
 .description_2 {
+  margin-top: 0%;
+  margin-left: 10px;
+  color: #e0e0e0;
+}
+
+.project_3 {
+  border: 1px solid #fff;
+  margin-left: 100px;
+  margin-top: 50px;
+  background-color: #1a1a1a;
+  overflow: hidden;
+  transition: transform 0.5s ease;
+}
+
+.project_3:hover {
+  transform: scale(1.05);
+}
+
+.all-in-one {
+  height: 300px;
+  width: 400px;
+  display: block;
+}
+
+.projectheading_3 {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  color: #e0e0e0;
+  font-size: 20px;
+}
+
+.description_3 {
   margin-top: 0%;
   margin-left: 10px;
   color: #e0e0e0;
